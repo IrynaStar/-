@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    double a = 10;
+    double b = 20;
+    cout << "&a: " << &a << "\n";
+    cout << "&b: " << &b << "\n";
+    cout << "&a - &b: " << ((char*)&a - (char*)&b) << "\n";
+    return 0;
+}
